@@ -31,3 +31,5 @@ Se utiliza una tabla temporal (`tmp_llenar_campos`) para realizar inserciones en
 ![Modelo relacional](./diagram/clase.png)
 
 
+
+
