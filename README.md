@@ -28,6 +28,6 @@ Se utiliza una tabla temporal (`tmp_llenar_campos`) para realizar inserciones en
 
 ### 🗂 Diagrama de relaciones:
 
-![Modelo relacional](./diagram/dd45b99b-dae6-4b3e-a015-c1c8b9ad8da5.png)
+![Modelo relacional](./diagram/clase.png)
 
 
