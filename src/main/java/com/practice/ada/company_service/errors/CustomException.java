@@ -3,11 +3,13 @@ package com.practice.ada.company_service.errors;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.practice.ada.company_service.util.ResponseCode;
+import lombok.Builder;
 import lombok.Getter;
 
 import java.util.List;
 
 @Getter
+@Builder
 public class CustomException extends RuntimeException{
 
     private String code;
@@ -17,6 +19,7 @@ public class CustomException extends RuntimeException{
     private List<FieldError> fieldCustomErrors;
 
     public CustomException(ResponseCode responseCode){
+        super(responseCode.getMessage());
         this.code = responseCode.getCode();
         this.message =  responseCode.getMessage();
         this.httpStatus = responseCode.getHttpStatus();

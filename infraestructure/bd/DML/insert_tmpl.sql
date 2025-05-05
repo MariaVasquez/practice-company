@@ -1,0 +1,34 @@
+INSERT INTO
+    tmp_llenar_campos (
+        id_company,
+        codigo_company,
+        name_company,
+        description_company,
+        version,
+        version_description,
+        version_company_id,
+        company_id,
+        version_id,
+        version_company_description,
+        app_id,
+        app_code,
+        app_name,
+        app_description
+    )
+VALUES
+    (
+        29,
+        "COMP-010",
+        "TEMP",
+        "TEMP-DESCRIPTION",
+        "2.0.0",
+        "TEMP_VERSION",
+        1,
+        28,
+        29,
+        "AHORRO",
+        1,
+        "APP_CODE_01",
+        "TEMP_APP",
+        "TEMP_APP_DESC"
+    );
